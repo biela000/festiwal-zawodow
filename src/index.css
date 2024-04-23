@@ -8,11 +8,15 @@
     --platinum: #e0e1ddff;
 
     --bg: var(--rich-black);
-    --bg-dark: #070f17;
+    --bg-dark: #070f17ff;
     --text: var(--platinum);
     --text-light: var(--silver-lake-blue);
     --text-dark: var(--oxford-blue);
     --accent: var(--yinmn-blue);
+
+    --gradient-color1: var(--silver-lake-blue);
+    --gradient-color2: var(--yinmn-blue);
+    --gradient-color3: var(--oxford-blue);
 }
 
 * {
