@@ -28,7 +28,7 @@
 }
 
 .glowing-border-card::after {
-    filter: blur(.5rem);
+    filter: blur(.2rem);
 }
 
 @keyframes rotation {
