@@ -1,0 +1,9 @@
+.header {
+    background-color: var(--bg);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin: 2rem;
+    border-radius: .5rem;
+}
