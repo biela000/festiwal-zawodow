@@ -23,12 +23,12 @@
             var(--gradient-color2),
             var(--gradient-color1)
     );
-    animation: rotation 10s linear infinite;
+    animation: rotation 5s linear infinite;
     border-radius: inherit;
 }
 
 .glowing-border-card::after {
-    filter: blur(.2rem);
+    filter: blur(3.5rem);
 }
 
 @keyframes rotation {
