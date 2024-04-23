@@ -1,0 +1,37 @@
+@property --gradient-angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+.glowing-border-card {
+    position: relative;
+    border-radius: .5rem;
+}
+
+.glowing-border-card::before,
+.glowing-border-card::after {
+    content: "";
+    position: absolute;
+    inset: -.2rem;
+    z-index: -1;
+    background: conic-gradient(
+            from var(--gradient-angle),
+            var(--gradient-color1),
+            var(--gradient-color2),
+            var(--gradient-color3),
+            var(--gradient-color2),
+            var(--gradient-color1)
+    );
+    animation: rotation 5s linear infinite;
+    border-radius: inherit;
+}
+
+.glowing-border-card::after {
+    filter: blur(3.5rem);
+}
+
+@keyframes rotation {
+    0% { --gradient-angle: 0deg; }
+    100% { --gradient-angle: 360deg; }
+}
