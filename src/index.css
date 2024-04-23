@@ -1,0 +1,42 @@
+@import url(https://fonts.bunny.net/css?family=andika:400,700);
+
+:root {
+    --rich-black: #0d1b2aff;
+    --oxford-blue: #1b263bff;
+    --yinmn-blue: #415a77ff;
+    --silver-lake-blue: #778da9ff;
+    --platinum: #e0e1ddff;
+
+    --bg: var(--rich-black);
+    --text: var(--platinum);
+    --text-light: var(--silver-lake-blue);
+    --text-dark: var(--oxford-blue);
+    --accent: var(--yinmn-blue);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Andika', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--text);
+    background-color: var(--bg);
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    height: 100%;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    height: 100%;
+}
