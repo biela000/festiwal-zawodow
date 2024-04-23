@@ -8,6 +8,7 @@
     --platinum: #e0e1ddff;
 
     --bg: var(--rich-black);
+    --bg-dark: #070f17;
     --text: var(--platinum);
     --text-light: var(--silver-lake-blue);
     --text-dark: var(--oxford-blue);
@@ -25,7 +26,7 @@ html {
     font-size: 16px;
     line-height: 1.5;
     color: var(--text);
-    background-color: var(--bg);
+    background-color: var(--bg-dark);
     height: 100%;
 }
 
